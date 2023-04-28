@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(70 70 70);
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+
+.menu2 {
+    background-color: black;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor table {
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.contenedor button {
+    font-size: 18px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contenedor .el {
+    background-color: rgb(182, 45, 45);
+}
+
+.contenedor .el:hover {
+    background-color: rgb(182, 26, 26);
+}
+
+.contenedor .ed {
+    background-color: seagreen;
+}
+
+.contenedor .ed:hover {
+    background-color: rgb(20, 126, 66);
+}
+
+.contenedor table th {
+    padding: 0 20px;
+}
+
